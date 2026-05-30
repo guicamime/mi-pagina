@@ -1,0 +1,73 @@
+.temas-de-familia a {
+color: red;
+}
+
+.fondo-skyblue{
+ background-color:skyblue; /*fondo de color */ 
+}
+
+.imagen-redonda {
+     width:200px;  /*ancho fijo*/
+     height:200px; /* alto fijo*/
+     border-radius:50%;  /*convierte en circulo */
+     border:4px solid black;  /*borde alrededor */
+     object-fit: cover;  /*recorta para que no se deforme */
+}
+
+
+/* clase especial para la imagen más grande */
+.imagen-grande {
+ width:500px; /* más ancho */
+ height:500px; /* más alto */
+ border-radius :50%;
+ border:4px solid black;
+ display: inline-block; /* hace que se alineen en fila */
+ margin:80px;           /* espacio entre imagenes */
+ object-fit:cover      /* recorta la imagen dentro del círculo */
+}
+
+}
+
+
+/* clase especial para la imagen más grande */
+.imagen-grande {
+ width:500px; /* más ancho */
+ height:500px; /* más alto */
+ border-radius :50%;
+ border:4px solid black;
+ display: inline-block; /* hace que se alineen en fila */
+ margin:80px;           /* espacio entre imagenes */
+ object-fit:cover      /* recorta la imagen dentro del círculo */
+}
+
+
+     .panel-derecho {
+  position: fixed;       /* se queda fijo en pantalla */
+  top: 10px;             /* distancia desde arriba */
+  right: 20px;           /* distancia desde la derecha */
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.panel-derecho ul {
+  list-style: none;      /* quita viñetas */
+  margin: 0;
+  padding: 0;
+}
+
+.panel-derecho li {
+  margin: 8px 0;         /* espacio entre botones */
+}
+
+.panel-derecho a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.panel-derecho a:hover {
+  color: #0077cc;        /* efecto al pasar el mouse */
+}
